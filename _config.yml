@@ -1,0 +1,30 @@
+title: GladiatorEngine
+lang: en
+description: GladiatorEngine is a game engine which (should) work(s) perfectly with Metal API on macOS, iOS/iPadOS and tvOS
+
+remote_theme: rundocs/jekyll-rtd-theme@v1.1.7
+edit: false
+
+url_github: https://github.com/GladiatorEngine
+url_github_issues: https://github.com/GladiatorEngine/GladiatorEngine/issues
+
+copyright:
+  revision: false
+author: GladiatorEngine maintainers
+github_metadata: false
+
+addons: []
+
+readme_index:
+  with_frontmatter: true
+
+sass:
+  style: compressed
+
+exclude:
+  - Makefile
+  - Gemfile
+  - Gemfile.lock
+  - .idea
+
+plugins: []

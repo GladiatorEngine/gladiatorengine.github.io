@@ -1,6 +1,6 @@
 # GladiatorEngine docs
 
-This folder is a KPHP website, available at [https://gladiatorengine.github.io/](https://gladiatorengine.github.io/).
+This folder is a GladiatorEngine website, available at [https://gladiatorengine.github.io/](https://gladiatorengine.github.io/).
 
 It is based on Jekyll and works on Github Pages.
 

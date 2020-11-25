@@ -12,13 +12,18 @@ To install GladiatorEngine with Homebrew you just need to install GladiatorEngin
 ```shell
 brew install GladiatorEngine/tap/gladiator-tools
 ```
+
 ## Project integration
+
 ### Recommended
+
 Use GladiatorEngine toolset to create new Xcode project:
 ```shell
 gladiator-engine project new TechnologyDemo
 ```
+
 ### Non-recommended
+
 Add GladiatorEngine to your Package.swift or Xcode Project as a dependency:
 ```swift
 // swift-tools-version:5.3
@@ -50,3 +55,4 @@ let package = Package(
     ]
 )
 ```
+Also you need to add hooks for compilation of your resources to GEA-assets.

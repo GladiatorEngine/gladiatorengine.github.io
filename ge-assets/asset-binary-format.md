@@ -7,7 +7,7 @@ sort: 1
 All assets are stored in GladiatorEngine Asset Binary format. It's a pretty simple format to understand.
 
 ## AssetType
-GEA uses the first byte in file to determine what does the the file contain:
+GEA uses the first byte in file to determine which asset is contained in the GEA:
 
 | Byte | Description |
 | ---- | ----------- |

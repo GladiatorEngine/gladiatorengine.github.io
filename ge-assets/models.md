@@ -7,7 +7,7 @@ sort: 3
 ## VerticesJSON
 VerticesJSON is a simple JSON-based format to declare model's vertices with ease.
 
-### Example of cube
+### Example of a cube
 This is a cube with edge of 1 and centered in point (0; 0):
 ```json
 [
@@ -31,6 +31,20 @@ GEA model file contains information about model in this scheme (excluding 0xBB -
 0000003F 0000803F 000000BF 000000BF | until end 4 bytes with float value (one vertex contains
 0000003F 0000803F 0000003F 000000BF | 4 floats, so 16 bytes per vertex)
 ...
+```
+
+### The same cube as in VerticesJSON example
+Binary formatted model (in HEX):
+```
+08000000 00000000 000000BF 0000003F
+0000003F 0000803F 000000BF 000000BF
+0000003F 0000803F 0000003F 000000BF
+0000003F 0000803F 0000003F 0000003F
+0000003F 0000803F 000000BF 0000003F
+000000BF 0000803F 000000BF 000000BF
+000000BF 0000803F 0000003F 000000BF
+000000BF 0000803F 0000003F 0000003F
+000000BF 0000803F
 ```
 
 ## Creating model out of VerticesJSON

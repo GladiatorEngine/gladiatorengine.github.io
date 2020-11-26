@@ -22,6 +22,17 @@ This is a cube with edge of 1 and centered in point (0; 0):
 ]
 ```
 
+## GEA model binary format
+
+GEA model file contains information about model in this scheme (excluding 0xBB - first byte and SHA512 hash in the end):
+
+```
+08000000 00000000 000000BF 0000003F | first 8 bytes - amount of vertices in the binary file
+0000003F 0000803F 000000BF 000000BF | until end 4 bytes with float value (one vertex contains
+0000003F 0000803F 0000003F 000000BF | 4 floats, so 16 bytes per vertex)
+...
+```
+
 ## Creating model out of VerticesJSON
 
 To create a model asset out of VerticesJSON you can use:
